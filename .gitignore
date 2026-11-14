@@ -1,0 +1,20 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment & Local Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+*.json.key
+service-account*.json
+
+# Local ZIP Bundles & OS Metadata
+*.zip
+.DS_Store
+Thumbs.db
